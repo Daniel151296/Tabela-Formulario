@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tabela_Formulario</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS.css" type="text/css">
+    </head>
+    <body>
+        <main>
+            <article>
+                <table border="4">
+                    <thead>   
+                    <tr>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                        <th>Sabado</th>
+                        <th>Domingo</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                       <td>Yoga 06:30hs</td>
+                       <td>Corrida 06:30hs</td>
+                       <td>Meditação 06:30hs</td>
+                       <td>Alongamento 06:30hs</td>
+                       <td>Caminhada 06:30hs</td>
+                       <td>Leitura 07:00hs</td>
+                       <td>Descanso 07:00hs</td>
+                    </tr>
+                    <tr>
+                        <td>Estudo 09:30hs</td>
+                        <td>Ginástica 09:30hs</td>
+                        <td>Reunião 10:30hs</td>
+                        <td>Reunião 08:30hs</td>
+                        <td>Estudo 09:00hs</td>
+                        <td>Agua de coco 10:00hs</td>
+                        <td>Peixe frito 12:00hs</td>
+                    </tr>
+                    <tr>
+                        <td>Exercicio 11:30hs</td>
+                        <td>Natação 13:30hs</td>
+                        <td>Parque 14:30hs</td>
+                        <td>Almoço em familia 12:30hs</td>
+                        <td>Estudo 11:00hs</td>
+                        <td>Passeio pelo calçadão 15:00hs</td>
+                        <td>Praia 14:00hs</td>
+                    </tr>
+                    <tr>
+                        <td>Almoço 13:00hs</td>
+                        <td>Almoço 13:00hs</td>
+                        <td>Almoço 13:00hs</td>
+                        <td>Almoço 13:00hs</td>
+                        <td>Almoço 13:00hs</td>
+                        <td>Almoço 13:00hs</td>
+                        <td>Almoço 13:00hs</td>
+                    </tr>
+                    <tr>
+                        <td>Descanso 15:30hs</td>
+                        <td>Yoga 16:30hs</td>
+                        <td>Shopping 18:30hs</td>
+                        <td>Estudo 15:00hs</td>
+                        <td>Trabalho 14:00hs</td>
+                        <td>Agua de coco 17:00hs</td>
+                        <td>Jantar especial 19:00hs</td>
+                    </tr>
+                    <tr>
+                        <td>Trabalho 17:00hs</td>
+                        <td>Estudo 18:00hs</td>
+                        <td>Cinema 19:00hs</td>
+                        <td>Descanso 17:30hs</td>
+                        <td>Passeio no parque 18:30hs</td>
+                        <td>Jantar com amigos 20:00hs</td>
+                        <td>Descanso 20:00hs</td>
+                    </tr>
+                    <tr>
+                        <td>Jantar em familia 19:00hs</td>
+                        <td>Leitura 20:00hs</td>
+                        <td>Jantar fora 20:00hs</td>
+                        <td>Cinema 20:00hs</td>
+                        <td>Happy hour 18:00hs</td>
+                        <td>Filme em casa 22:00hs</td>
+                        <td>Sessão de meditação 21:00hs</td>
+                    </tr>
+                </tbody> 
+                </table>
+            </article>
+            <section><br>
+                <form name="dados" action="index.html" method="get">
+                    <label for="idNome">Nome:</label>
+                    <input id="idNome" type="text" name="nome"><br><br>
+                    <label for="idEmail">Email:</label>
+                    <input id="idEmail" type="text" name="Email"><br><br>
+                    <label for="idSenha">Senha:</label>
+                    <input id="idSenha" type="password" name="Senha"><br><br>
+                    <label for="idSenha">Confirme a Senha:</label>
+                    <input id="idSenha" type="password" name="Senha"><br><br>
+                    <label for="idData de Nasccimento">data de Nasccimento:</label>
+                    <input type="idData de Nasccimento" type="date" name="Data de Nasccimento"><br><br>
+                    <label for="ididade">idade:</label>
+                    <input type="ididade" type="number" name="idade"><br><br>
+                    <label for="idGenero"> Genero:
+                        <input type="radio" name="genero" value="masculino"> Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="masculino"> Feminino
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="masculino"> Outros
+                    </label><br><br>
+                    <label for="areas de interesse">Áreas de interesse:</label>
+                    <select id="areas de interesse" name="areas de interesse" nultiple>
+                        <option value="Progamação">Progamação</option>
+                        <option value="Desing">Desing</option>
+                        <option value="Empreedorismo">Empreedorismo</option>
+                        <option value="IA">IA</option>
+                        <option value="VR/AR">VR/AR</option>
+                        <option value="Cybersecuruty">Cybersecuruty</option>
+                    </select><br><br>
+                    <label for="escolaridade">Nivel de escolaridade:</label>
+                    <select id="escolaridade" name="escolaridade" nultiple>
+                        <option value="Ensino fundamental">Ensino fundamental</option>
+                        <option value="Ensino medio">Ensino medio</option>
+                        <option value="Graduação">Graduação</option>
+                        <option value="Pós Graduação">Pós Graduação</option>
+                    </select><br><br>
+                    <label for="bio">Biografia</label>
+                    <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                    <fieldset><br><br>
+                        <label for="fotoperfil">Foto de Perfil</label>
+                        <input id="fotoperfil" type="file" name="fotoperfil"><br><br>
+                        <label for="sitepessoal">sitepessoal</label>
+                        <input id="sitepessoal" type="url" name="sitepessoal"><br><br>
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="tel" name="telefone"><br><br>
+                        <label for="Cidade">Cidade</label>
+                        <input id="Cidade" type="text" name="Cidadee"><br><br>
+                        <label for="Estado">Estado</label>
+                        <input id="Estado" type="text" name="Estado"><br><br>
+                        <label>Deseja receber novidades por E-mail?</label>
+                        <input id="ReceberEmail" type="checkbox" name="Receber">  
+                    </fieldset><br>
+                    <input type="submit" value="Enviar">
+                   </form>
+            </section>
+        </main>   
+    </body>
+</html>
